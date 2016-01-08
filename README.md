@@ -20,7 +20,7 @@ Run
 ---
 
 ```
-docker run -p 9200:9200 -p 9300:9300 \
+docker run -p 27017:27017 \
            -e REPLICATE_NAME=esn \
            -e OPLOG_SIZE=128 \
            linagora/esn-mongo
