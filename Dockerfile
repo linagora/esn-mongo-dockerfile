@@ -1,10 +1,15 @@
+#
+# docker build -t linagora/esn-mongo .
+#
+# Docker container with configured MongoDB for OpenPaaS ESN
+#
+
 FROM mongo:2.6.5
 
-## esn-mongo dockerfile
-MAINTAINER Bastien Mennesson <bmennesson@linagora.com>
+MAINTAINER Linagora Folks
 
 EXPOSE 27017
 
-COPY start.sh /usr/local/bin
+COPY start.sh /usr/local/bin/start.sh
 
 CMD ["sh", "/usr/local/bin/start.sh"]
