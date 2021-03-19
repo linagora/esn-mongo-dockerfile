@@ -1,3 +1,5 @@
+![Archived](https://img.shields.io/badge/Current_Status-archived-blue?style=flat)
+
 # Docker ESN MongoDB Container
 
 [![Build Status](https://travis-ci.org/linagora/esn-mongo-dockerfile.svg?branch=master)](https://travis-ci.org/linagora/esn-mongo-dockerfile)
